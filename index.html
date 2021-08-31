@@ -1548,21 +1548,21 @@ element.style {
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://source.unsplash.com/collection/190727/1600x600" class="d-block w-100" alt="...">
+        <img id="im" src="https://source.unsplash.com/collection/190727/" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://source.unsplash.com/WLUHO9A_xik/1600x600" class="d-block w-100" alt="...">
+        <img id="im1" src="https://source.unsplash.com/WLUHO9A_xik/" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://source.unsplash.com/WLUHO9A_xik/1600x600" class="d-block w-100" alt="...">
+        <img id="im2" src="https://source.unsplash.com/WLUHO9A_xik/" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Some representative placeholder content for the third slide.</p>
@@ -1581,6 +1581,8 @@ element.style {
 </body>
 
 <script>
+
+          let im=document.getElementById("im");
          
            document.getElementById("pop").style.display="none";
            let aks=document.getElementById('btn');
@@ -1596,13 +1598,27 @@ element.style {
                
                 let k=h - 123;
                 let h1= k+"px";
-                document.getElementById("mob").style.height= h1;}
+                let m=h - 66;
+                let h2=m+"px";
+                document.getElementById("mob").style.height= h1;
+                document.getElementById("im").style.height= h2;
+                document.getElementById("im1").style.height= h2;
+                document.getElementById("im2").style.height= h2;
+
+                
+            
+            }
             if(window.innerWidth >= 640){
                 let h= window.innerHeight;
                
                let k=h - 149;
                let h1= k+"px";
+               let m=h - 100;
+               let h2=m+"px";
                document.getElementById("mob").style.height= h1;
+               document.getElementById("im").style.height= h2;
+               document.getElementById("im1").style.height= h2;
+               document.getElementById("im2").style.height= h2;
            
 
             }
@@ -1615,14 +1631,25 @@ element.style {
                 let h= window.innerHeight;
                 let k=h - 123;
                 let h1= k+"px";
+                let m=h - 66;
+                let h2=m+"px";
                 document.getElementById("mob").style.height= h1;
+                document.getElementById("im").style.height= h2;
+                document.getElementById("im1").style.height= h2;
+                document.getElementById("im2").style.height= h2;
              }
              if(window.innerWidth >= 640){
                let h= window.innerHeight;
                
                let k=h - 149;
                let h1= k+"px";
-               document.getElementById("mob").style.height= h1;}
+               let m=h - 100;
+               let h2=m+"px";
+               document.getElementById("mob").style.height= h1;
+               document.getElementById("im").style.height= h2;
+               document.getElementById("im1").style.height= h2;
+               document.getElementById("im2").style.height= h2;
+            }
 
                      }, true); 
           
