@@ -1499,7 +1499,7 @@ body {font-family: 'Nunito', sans-serif;margin: 0;padding: 0;}
 Hero slider style
 ==========================*/
 .hero-slider {position: relative;}
-.single-hs-item {height:calc(innerHeight - 100px);background-size: cover;background-position: center center;position: relative;}
+.single-hs-item {height:700px;background-size: cover;background-position: center center;position: relative;}
 .single-hs-item:before {content: '';position: absolute;width: 100%;height: 100%;left: 0;top: 0;background-color: #000;opacity: .6;}
 .item-bg1 {
 background-image: url(https://techsolutionshere.com/wp-content/uploads/2019/01/s1.jpg);
@@ -1568,7 +1568,7 @@ color: #fff;font-size: 30px;margin: -40px 0 0;border-radius: 0;height: 50px;widt
 <div id="slides">
 <!-- Hero Slider -->
 <div id="home" class="hero-slider owl-carousel owl-theme">
-    <div class="single-hs-item item-bg1" >
+    <div class="single-hs-item item-bg1" id="nik">
         <div class="d-table">
             <div class="d-tablecell">
                 <div class="hero-text">
@@ -1581,7 +1581,7 @@ color: #fff;font-size: 30px;margin: -40px 0 0;border-radius: 0;height: 50px;widt
             </div>
         </div>
     </div>
-    <div class="single-hs-item item-bg2">
+    <div class="single-hs-item item-bg2" id="vij">
         <div class="d-table">
             <div class="d-tablecell">
                 <div class="hero-text">
@@ -1594,7 +1594,7 @@ color: #fff;font-size: 30px;margin: -40px 0 0;border-radius: 0;height: 50px;widt
             </div>
         </div>
     </div>
-    <div class="single-hs-item item-bg3" >
+    <div class="single-hs-item item-bg3" id="sus">
         <div class="d-table">
             <div class="d-tablecell">
                 <div class="hero-text">
@@ -1654,8 +1654,7 @@ dots: true,
 autoplay:true,
 autoplayTimeout:5000,
 })
-
-
+          
           
          
            document.getElementById("pop").style.display="none";
