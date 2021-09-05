@@ -1496,7 +1496,7 @@ background-image: url("IMG_20210902_202853.jpg");
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b8/IIT_Madras_Research_Park.jpg");
 }
 .hero-text {padding: 0 15px;text-align: center;max-width: 1140px;margin-left: auto;margin-right: auto;position: relative;}
-.hero-text h1 {color: #fff;font-size: 50px;text-transform: capitalize;font-weight: 600;margin: 0;}
+.hero-text h1 {color: #fff;font-size: 70px;text-transform: capitalize;font-weight: 600;margin: 0;}
 .hero-text p {color: #fff;font-size: 17px;max-width: 600px;margin-left: auto;margin-right: auto;line-height: 30px;margin-top: 20px;margin-bottom: 35px;}
 .hero-slider .owl-item.active h1 {-animation: 1s .3s fadeInUp both;}
 .hero-slider .owl-item.active p {-webkit-animation: 1s .3s fadeInUp both;animation: 1s .3s fadeInUp both;}
@@ -1516,7 +1516,10 @@ color: #fff;font-size: 30px;margin: -40px 0 0;border-radius: 0;height: 50px;widt
 }
 .hero-text h1 {
     font-size: 30px;
+    
+
 }
+
 .hero-text p {
     font-size: 15px;
     margin-bottom: 25px;
