@@ -30,6 +30,19 @@ p {
 	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
+#footer .copyright-content{
+	min-height: 80px;
+	padding: 30px 0;
+	font-size: 13px;
+}
+
+.p-t-20{
+	padding-top: 20px;
+}
+.p-b-20{
+	padding-bottom: 20px;
+}
+
 #footer p {
 	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
